@@ -1,0 +1,21 @@
+.chart{
+    position: absolute;
+    width: 420px;
+    height: 300px;
+  }
+  .chart-1{
+    left:20px;
+    bottom:300px;
+  }
+  .chart-2{
+    left:420px;
+    bottom:300px;
+  }
+  .chart-3{
+    left: 20px;
+    bottom:0px;
+  }
+  .chart-4{
+    left: 420px;
+    bottom:0;
+  }

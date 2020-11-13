@@ -2,24 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Web Portfolio of Marco</title>
+    <title>Weather Analysis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    body{
+      color: grey;
+      line-height: 2;
+      margin: 0 auto;
+      padding-top: 0px;
+      }
+    .head_one{
+      color:#4aaaa5;
+      font-size: 40px;
+}
+    .head_two{
+      color:#4aaaa5;
+      font-size: 35px;
+}
+    h2{
+      color:#4aaaa5;
+      font-size: 30px;
+}
+    #main-par{
+        float: left;
+        width:100%;}
+        p{
+          font-family: Verdana, Geneva, Tahoma, sans-serif; 
+          font-size: 20px;
+        }
+    p.b {
+  margin: 25px 0;
+}
+    #main_chart{
+       width: 230px;
+       height: 200px;
+       float: left;
+}
+hr{
+        height: 1px;
+        background-color: rgb(235, 231, 231);
+        border: none;
+    }
+    </style>
   </head>
 
-  <body style="background-color:rgb(247, 240, 248);">
+  <body>
+    <div class="container"></div>
 
-    <h1 style="color:rgb(192, 147, 24);font-family:Helvetica,Arial,sans-serif;font-weight:400;">
-      Latitude, Longitude, and Temperature
+    <header>
+      <h1 class="head_one">Latitude</h1>  
+    </header>
+
+    <main class="container">
+      <section id="main-par">
+        <section id="figure">
+    <h1 class="head_two">
+      Summary: Latitude vs. X
     </h1>
-    
-    <p style="font-family: initial;">
-      Look at lines of latitude and longitude on world climate maps. Talk about how temperatures change with latitude and what latitude has to do with climate patterns.
+  <hr>  
+  <img id="main_chart" src="Resources/assets/Fig1.png" alt="City Latitude vs. Max temperature">
+  </section>
+    <p class="a">
+      The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
     </p>
-
-    <p>
-<h3 style="font-family: inherit;text-decoration: underline;text-decoration-color: #fc0;text-decoration-thickness: inherit;">Links:</h3>
-
-      <a></a>
+    <p class="b">
+      After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.      
     </p>
-    
+  </section>
+
+  <aside id="visualizations">
+    <h2>
+      Visualizations
+    </h2>
+    <hr>
+    <div class="chart-box">
+    <img class="chart chart-1" src="Resources/assets/Fig1.png" alt="City Latitude vs. Max temperature">
+    <img class="chart chart-2" src="Resources/assets/Fig2.png" alt="City Latitude vs. Humidity">
+    <img class="chart chart-3" src="Resources/assets/Fig3.png" alt="City Latitude vs. Cloudiness">
+    <img class="chart chart-4" src="Resources/assets/Fig4.png" alt="City Latitude vs. Wind Speed">
+    </div>
+  </aside>
+  </main>
   </body>
 </html>
