@@ -6,7 +6,7 @@ Data is more powerful when we share it with others! Let's take what we've learne
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Bonus Part](#bonus_part)
+- [Considerations](#consider_part)
 
 ## 🧐 About <a name = "about"></a>
 There are some plots of Latitude - Latitude Analysis which in this project they are going to use in building of visualization dashboard website. For this project we are donig:
@@ -29,9 +29,14 @@ There are some plots of Latitude - Latitude Analysis which in this project they 
 **Comparisons page:** <br>
 - Contains all of the visualizations on the same page so we can easily visually compare them.
 - Uses a Bootstrap grid for the visualizations.
--- The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+- The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
-## :doughnut:Bonus Part -	Import the SQL database into Pandas. <a name = "bonus_part"></a>
+**Data page:** <br>
+- Displays a responsive table containing the data used in the visualizations.
+- The table must be a bootstrap table component.
+- The data must come from exporting the .csv file as HTML, or converting it to HTML.
+
+## :doughnut:Considerations. <a name = "#consider_part"></a>
 
 1.	Create a histogram to visualize the most common salary ranges for employees.
 2.	Create a bar chart of average salary by title.
