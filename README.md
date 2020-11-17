@@ -36,7 +36,7 @@ There are some plots of Latitude - Latitude Analysis which in this project they 
 - The table must be a bootstrap table component.
 - The data must come from exporting the .csv file as HTML, or converting it to HTML.
 
-## :doughnut:Considerations. <a name = "#consider_part"></a>
+## :doughnut:Considerations. <a name = "consider_part"></a>
 
 1.	Create a histogram to visualize the most common salary ranges for employees.
 2.	Create a bar chart of average salary by title.
