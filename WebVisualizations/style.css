@@ -1,21 +1,96 @@
-.chart{
-    position: absolute;
-    width: 420px;
-    height: 300px;
+body{
+background-color: #ededed;
+}
+
+a.navbar-brand{
+background-color: #4aaaa5;
+font-family: 'Times New Roman', Times, serif; 
+padding: 10px;
+margin-left: 10px;
+font-size: 25px;
+}
+
+.navbar{
+  padding: 0px 150px 0px 60px;
+}
+
+a.nav-link{
+font-weight: inherit;
+color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-item.dropdown.show {
+  background-color: #ddd;
+}
+
+.dropdown-menu {
+  margin: 0;
+}
+
+nav li{
+  margin-right: 20px;
+}
+
+nav a{
+color: #ededed;
+font-weight: bold;
+}
+
+.col-md-12{
+background-color: white;
+padding: 25px;
+margin-top: 40px;
+}
+
+.container h2{
+font-family: 'Times New Roman', Times, serif;
+color: #4aaaa5;  
+font-weight: bold;
+}
+
+.container h3{
+  font-family: 'Times New Roman', Times, serif;
+  color: #4aaaa5;  
+  font-weight: bold;
   }
-  .chart-1{
-    left:20px;
-    bottom:300px;
+
+.main-image{
+width: 57%;
+padding:8px;
+}
+
+
+@media (max-width: 900px) {
+  .navbar-expand-lg { 
+    background-color: #4aaaa5 !important;
   }
-  .chart-2{
-    left:420px;
-    bottom:300px;
+
+  .navbar {  
+    padding: inherit;
+  } 
+  
+  .navbar div {  
+    background-color: white;
   }
-  .chart-3{
-    left: 20px;
-    bottom:0px;
+
+  .navbar-brand {
+    padding: 10px;
   }
-  .chart-4{
-    left: 420px;
-    bottom:0;
+  button{
+    margin-right: 60px;
   }
+
+  .navbar-light .navbar-toggler {
+    color: #696969;
+    border-color: #DDDDDD;
+  }
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+
+}
