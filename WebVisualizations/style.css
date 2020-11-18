@@ -59,8 +59,24 @@ font-weight: bold;
   }
 
 .main-image{
-width: 57%;
+width: 80%;
 padding:8px;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: 100%;
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-border{
+  border-style: solid;
+  border-color: #4aaaa5;
+  border-width: thin;
 }
 
 
@@ -85,8 +101,8 @@ padding:8px;
   }
 
   .navbar-light .navbar-toggler {
-    color: #696969;
-    border-color: #DDDDDD;
+    color: #575555;
+    border-color: #ffffff;
   }
 }
 .container{
